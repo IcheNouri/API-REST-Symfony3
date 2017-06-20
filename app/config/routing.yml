@@ -1,0 +1,31 @@
+app:
+    resource: '@AppBundle/Controller/defaultController.php'
+    type: annotation
+
+place:
+    type: rest
+    resource: AppBundle\Controller\PlaceController
+
+price:
+    type: rest
+    resource: AppBundle\Controller\Place\PriceController
+
+user:
+    type: rest
+    resource: AppBundle\Controller\UserController
+
+theme:
+    type: rest
+    resource: AppBundle\Controller\Place\ThemeController
+
+preference:
+    type: rest
+    resource: AppBundle\Controller\User\PreferenceController
+
+auth-tokens:
+    type: rest
+    resource: AppBundle\Controller\AuthTokenController
+
+channel:
+    type: rest
+    resource: AppBundle\Controller\ChannelController
